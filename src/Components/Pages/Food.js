@@ -1,4 +1,5 @@
-import Card from '../components/Card.js';
+
+import Card  from "/11am-grp5-repo/src/Components/nutrition/Card";
 import ReactDOM from "react-dom";
 
 

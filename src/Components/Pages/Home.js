@@ -1,7 +1,8 @@
 import React from "react";
 import './Home.css'; 
 import Navbar from '../navbar/Navbar';
-
+import Footer from '../footer/Footer';
+import Cardn from "../cardn/Cardn";
 
 function Home() {
   return (
@@ -15,7 +16,7 @@ function Home() {
             muted
             playsInline
             className="back-vid"
-            src="/HomePageimg/Vidintro.mp4"/>
+            src="./assets/videos/FootballStadium.mp4"/>
             
         </div>
         <div className="heading-Sport">
@@ -23,6 +24,8 @@ function Home() {
             <p className="desc">! رحلتك الرياضية تبدأ من هنا</p>
         </div>
       </div>
+      <Cardn/>
+      <Footer/>
     </>
   );
 }

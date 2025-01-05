@@ -4,15 +4,16 @@
     border-radius: .5rem;
     font-size: 1.2rem;
     margin-left: 1.9rem;
-    background-color: rgba(255, 0, 0, 0.952);
-    border-color: rgb(255, 62, 62);
+    background-color: rgb(255, 203, 30); 
+    border-color: rgb(255, 203, 30);   
     cursor: pointer;
     font-weight: bold;
     color: #000000;
     transition: all 0.3s ease;
+    margin-right: 40px;
 }
 .Btn-nav:hover{
-    background-color: rgb(255, 146, 142);
+    background-color: rgb(255, 231, 152); 
     transform: scale(1.09);
     color: #363535;
 }
