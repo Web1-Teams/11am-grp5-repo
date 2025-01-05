@@ -1,10 +1,10 @@
 
 import './App.css';
-import Heartbtn from '../src/components/Heartbtn';
-import Navbar from  './components/Navbar';
+import Navbar from  './Components/Navbar';
 import Home from  './Pages/Home';
 import ReactDOM from "react-dom";
 import {BrowserRouter, Route,Routes} from "react-router-dom";
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
       <Route  path="/" element={<Home/>}/>
     </Routes>
     <Home />
-    <Heartbtn/>
     
     
     </>
