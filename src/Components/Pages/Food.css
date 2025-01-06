@@ -1,0 +1,42 @@
+.container {
+  direction: rtl;
+  padding: 20px;
+  display: flex; /* استخدم flexbox */
+  justify-content: center; /* توسيط العناصر أفقيًا */
+  align-items: center; /* توسيط العناصر عموديًا */
+  flex-wrap: wrap; /* للسماح للعناصر بالتوزيع إذا كانت تحتاج إلى عدة صفوف */
+}
+
+.section {
+  width: 470px;
+  height: 490px;
+  margin-bottom: 30px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.section-image {
+  width: 300px; 
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.section h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}

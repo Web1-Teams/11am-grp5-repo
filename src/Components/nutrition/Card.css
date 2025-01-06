@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Readex+Pro:wght@160..700&display=swap');
+.card{
+  font-family:  "Amiri", serif;
+    background-color: antiquewhite;
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   margin: 30px 10px;
+   max-height: 600px;
+   width: 300px;
+   padding: 20px 15px;
+   box-shadow: 0 5px 202px rgba(0,0, 0, 100);
+   overflow: hidden;
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+border-radius: 20px;
+  }
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  /**  card image **/
+.card-img-top{
+   
+    display: block;
+    width: 290px;
+    height: 275px;
+    border-radius:  50px 100px;
+    margin: 1px;
+    
+    top: 1.9px;
+}
+/** title**/
+.card-head h1 {
+    font-size: 28px;
+    color: #1a1919;
+    font: 2rem bold;
+    padding-right: 6px;
+    display: inline-block;
+    border-right: solid orangered; 
+    border-bottom: 5px solid orangered ;   
+}
+/** pragraph under title**/
+.card-text{
+    font: bold 1.2rem "Amiri", serif;
+    color: #0e0d0d;
+    line-height: 1.6;
+    bottom: 1rem;
+    margin-right: 0px;
+    margin: 10px 0px 10px 10px;
+
+}
+ /** text display when the card expanded **/
+.card-info {
+    line-height: 1.9;
+    font-size: 1.4rem;
+    color: #0e0d0d;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f5f5f5;
+  }
+  .card.expanded .card-info {
+    max-height:300px; 
+    opacity: 1;
+    overflow: auto;
+
+  }
+  /** buttn **/
+.card-btn{
+  font-family:  "Amiri", serif;
+    display: block;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #ffcf91;
+    margin-top: auto;
+}
+
+.card-btn:hover {
+    color: #630000; 
+    background-color: rgba(253, 29, 29, 0.1); 
+    transition: all 0.3s ease;
+    
+}
+
+.card.expanded {
+    max-height: 1000px; 
+  }
+
+

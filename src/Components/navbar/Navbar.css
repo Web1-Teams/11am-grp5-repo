@@ -1,20 +1,18 @@
 nav{
-    background-color: #f7f1f1;
+    background-color:#7a0a0af3;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 100%;
     z-index: 1000;
+    width: 100%;
     transition: all 0.3s ease;
 }
 nav ul{
     padding: .4rem;
     margin: 1rem;
-    
     list-style: none;
     display: flex;
-    gap:1rem ;
+    gap:7rem ;
     font-size: 1.2rem;
 }
 nav a{

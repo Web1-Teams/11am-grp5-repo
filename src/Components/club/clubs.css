@@ -1,0 +1,78 @@
+/* === CONTENT STYLING === */
+
+.f1 {
+    direction: rtl;
+    color: white;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .city{background-color: black;}
+  
+  .f1 h1 {
+    color: white; 
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  .f1 p {
+    color: white;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  .f1 hr {
+    border: 1px solid white;
+    margin: 20px 0;
+  }
+  
+  .f1 .city {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .f1 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .f1 li {
+    margin-bottom: 20px;
+  }
+  
+ 
+  /* === SEARCH BOX === */
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .search-box input {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .search-box button {
+    padding: 10px 20px;
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .search-box button:hover {
+    background: #030445;
+  }
+  
